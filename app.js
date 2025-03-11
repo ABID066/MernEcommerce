@@ -29,7 +29,7 @@ let limiter = rateLimit({ windowMs: 15 * 60 * 1000, max: 3000 });
 app.use(limiter);
 
 // Mongoose
-let URL = 'mongodb+srv://abidAdmin:1234@cluster0.z72chbc.mongodb.net/Ecommerce';
+let URL = 'Removed';
 let OPTION = { user: '', autoIndex: true };
 mongoose.connect(URL, OPTION)
     .then(() => {
